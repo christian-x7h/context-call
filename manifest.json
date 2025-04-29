@@ -1,0 +1,11 @@
+{
+  "name": "Context-Call",
+  "description": "Highlight a phone number → right-click → Call.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["contextMenus"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": { "16": "phone16.png", "32": "phone32.png", "48": "phone48.png", "128": "phone128.png" }
+}
